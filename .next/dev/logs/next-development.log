@@ -1,0 +1,349 @@
+[00:00:06.817] Server  LOG     
+[00:00:06.818] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:06.818] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:06.818] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:06.818] Server  LOG     
+[00:00:06.818] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:06.818] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:06.818] Server  LOG     
+[00:00:07.728] Server  LOG      ✓ Ready in 5.6s
+[00:00:10.776] Server  LOG      ○ Compiling / ...
+[00:00:12.051] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:12.051] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:12.051] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895295223}
+[00:00:19.433] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:19.433] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895302596}
+[00:02:51.629] Server  LOG      ✓ Compiled in 246ms
+[00:02:52.034] Browser ERROR   ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:03:12.864] Server  ERROR    ⨯ ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+
+
+[00:03:12.983] Browser ERROR   ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:03:13.613] Browser ERROR   ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:03:13.613] Browser ERROR   ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:03:14.086] Browser ERROR   ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:03:14.211] Browser ERROR   uncaughtError: Error: ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+
+
+[00:03:14.368] Browser ERROR   ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:03:14.368] Browser ERROR   ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:03:16.345] Server  ERROR    ⨯ ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+
+
+[00:03:16.423] Browser ERROR   uncaughtError: Error: ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+
+
+[00:03:16.560] Browser ERROR   ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:03:16.560] Browser ERROR   ./app/menu/page.tsx:218:21
+Parsing ecmascript source code failed
+  216 |                       </button>
+  217 |
+> 218 |                     ))}
+      |                     ^
+  219 |                   </div>
+  220 |                 </div>
+  221 |               )}
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:03:34.552] Server  LOG      ✓ Compiled in 91ms
+[00:03:35.107] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:35.107] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:03:35.107] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895498279}
+[00:05:10.040] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:10.040] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:05:10.040] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895593213}
+[00:05:22.936] Server  LOG      ✓ Compiled in 81ms
+[00:05:41.148] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:05:41.148] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895624318}
+[00:05:57.776] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895640934}
+[00:06:36.693] Server  LOG      ✓ Compiled in 63ms
+[00:06:39.340] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:39.340] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:06:39.344] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895682513}
+[00:06:46.177] Server  LOG      ✓ Compiled in 56ms
+[00:06:46.284] Browser ERROR   ./app/menu/page.tsx:31:87
+Parsing ecmascript source code failed
+  29 |
+  30 | const desserts = [
+> 31 |   { name: "Churros (1)", price: 1.0, description: "Single churro with dipping sauces" image: "/images/churros.jpeg" },
+     |                                                                                       ^^^^^
+  32 |   { name: "Churros (4)", price: 3.5, description: "Four churros bundle with dipping sauces" image: "/images/churros.jpeg" },
+  33 | ]
+  34 |
+
+Expected ',', got 'image'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:07:15.203] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:15.203] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:07:15.203] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895718376}
+[00:08:52.244] Server  LOG      ✓ Compiled in 100ms
+[00:10:17.966] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:10:17.966] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:10:17.967] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765895901141}
+[00:11:14.520] Server  LOG      ✓ Compiled in 90ms
+[00:11:23.324] Server  LOG      ✓ Compiled in 169ms
+[00:12:50.159] Server  LOG      ✓ Compiled in 133ms
+[00:24:05.415] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:24:05.415] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:24:05.415] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765896728592}
+[00:24:16.542] Server  LOG      ✓ Compiled in 78ms
+[00:26:22.569] Server  LOG      ✓ Compiled in 73ms
+[00:36:19.023] Server  LOG      ✓ Compiled in 69ms
+[00:36:46.634] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:36:46.634] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765897489810}
+[00:37:01.809] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765897504983}
+[00:43:12.754] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765897875927}
+[00:53:07.023] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765898470187}
+[00:55:23.195] Server  LOG      ✓ Compiled in 87ms
+[00:57:00.726] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:57:00.726] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:57:00.726] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765898703907}
+[00:57:14.763] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:57:14.763] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765898717941}
