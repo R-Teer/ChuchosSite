@@ -85,12 +85,12 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  La Taqueria was born from a simple obsession: bringing the raw, unfiltered flavors of Mexico City
+                  Chuchos was born from a simple obsession: bringing the raw, unfiltered flavors of Mexico City
                   street food to the heart of Woking.
                 </p>
                 <p>
-                  Our founder grew up in the mercados of CDMX, surrounded by vendors who treated every taco like a work
-                  of art. That passion, that dedication to craft—it's in every bite we serve.
+                  Inspired by the mercados of CDMX, and by vendors who treated every taco like a work
+                  of art. That passion, that dedication to craft...it's in every bite we serve.
                 </p>
                 <p>
                   We don't do trendy. We don't do tex-mex. We do authentic, bold, unapologetic Mexican street food. Every

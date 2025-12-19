@@ -87,40 +87,25 @@ export function Navigation() {
               MENU
             </span>
             <div className="relative w-10 h-10 flex items-center justify-center">
-              {/* Taco Icon styled as hamburger */}
-              <div className="relative w-8 h-6 flex flex-col justify-between">
-                {/* Top taco shell */}
-                <span
-                  className={`block h-1 rounded-full bg-foreground transition-all duration-500 origin-center ${
-                    isOpen
-                      ? "rotate-45 translate-y-2.5 bg-accent"
-                      : "rounded-t-full bg-gradient-to-r from-amber-600 to-amber-500"
+              {/* 3-dot menu in Mexican flag colors */}
+              <div className="relative w-8 h-6 flex items-center justify-between">
+                {/* Green dot */}
+                <span 
+                  className={`block w-2 h-2 rounded-full transition-all duration-300 ${
+                    isOpen ? "bg-foreground" : "bg-[#006847]"  // Green from Mexican flag
                   }`}
-                  style={{
-                    borderRadius: isOpen ? "2px" : "999px 999px 4px 4px",
-                    height: isOpen ? "3px" : "6px",
-                  }}
                 />
-                {/* Middle filling */}
-                <span
-                  className={`block h-1 bg-foreground transition-all duration-500 ${
-                    isOpen
-                      ? "opacity-0 scale-0"
-                      : "opacity-100 bg-gradient-to-r from-green-600 via-red-500 to-yellow-500"
+                {/* White dot */}
+                <span 
+                  className={`block w-2 h-2 rounded-full transition-all duration-300 ${
+                    isOpen ? "bg-foreground" : "bg-white"
                   }`}
-                  style={{ height: "4px", borderRadius: "2px" }}
                 />
-                {/* Bottom taco shell */}
-                <span
-                  className={`block h-1 rounded-full bg-foreground transition-all duration-500 origin-center ${
-                    isOpen
-                      ? "-rotate-45 -translate-y-2.5 bg-accent"
-                      : "rounded-b-full bg-gradient-to-r from-amber-500 to-amber-600"
+                {/* Red dot */}
+                <span 
+                  className={`block w-2 h-2 rounded-full transition-all duration-300 ${
+                    isOpen ? "bg-foreground" : "bg-[#CE1126]"  // Red from Mexican flag
                   }`}
-                  style={{
-                    borderRadius: isOpen ? "2px" : "4px 4px 999px 999px",
-                    height: isOpen ? "3px" : "6px",
-                  }}
                 />
               </div>
             </div>

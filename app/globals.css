@@ -141,6 +141,114 @@
 }
 
 /* Custom animations and utilities for taqueria */
+/* Custom Scrollbar Styles */
+/* For Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+  border-left: 1px solid #2a2a2a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CE1126;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a40e1e;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #CE1126 #000000;
+}
+
+/* For Edge */
+@supports (-ms-ime-align: auto) {
+  * {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) rotate(2deg) scale(1.05);
+  }
+}
+
+@keyframes subtlePulse {
+  0%, 100% {
+    transform: scale(1) rotate(0.5deg);
+  }
+  50% {
+    transform: scale(1.02) rotate(-0.5deg);
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  50% {
+    opacity: 0.5; /* Start showing at 50% */
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes luchadorEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-150px) scale(1.2);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.floating {
+  animation: float 8s ease-in-out infinite;
+}
+
+.subtle-pulse {
+  animation: subtlePulse 15s ease-in-out infinite;
+}
+
+.zoom-out {
+  animation: zoomOut 1.2s ease-out forwards;
+  opacity: 0; /* Start invisible */
+  will-change: transform, opacity;
+}
+
+.luchador-enter {
+  animation: luchadorEnter 0.8s ease-out forwards;
+  opacity: 0;
+  will-change: transform, opacity;
+  transform-origin: center bottom;
+  animation-delay: 0.3s;
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+
 @layer utilities {
   /* font-display class uses Bebas Neue Bold directly */
   .font-display {

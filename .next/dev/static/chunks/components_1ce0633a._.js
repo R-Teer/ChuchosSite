@@ -156,39 +156,29 @@ function Navigation() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative w-10 h-10 flex items-center justify-center",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative w-8 h-6 flex flex-col justify-between",
+                                        className: "relative w-8 h-6 flex items-center justify-between",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: `block h-1 rounded-full bg-foreground transition-all duration-500 origin-center ${isOpen ? "rotate-45 translate-y-2.5 bg-accent" : "rounded-t-full bg-gradient-to-r from-amber-600 to-amber-500"}`,
-                                                style: {
-                                                    borderRadius: isOpen ? "2px" : "999px 999px 4px 4px",
-                                                    height: isOpen ? "3px" : "6px"
-                                                }
+                                                className: `block w-2 h-2 rounded-full transition-all duration-300 ${isOpen ? "bg-foreground" : "bg-[#006847]" // Green from Mexican flag
+                                                }`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/navigation.tsx",
                                                 lineNumber: 93,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: `block h-1 bg-foreground transition-all duration-500 ${isOpen ? "opacity-0 scale-0" : "opacity-100 bg-gradient-to-r from-green-600 via-red-500 to-yellow-500"}`,
-                                                style: {
-                                                    height: "4px",
-                                                    borderRadius: "2px"
-                                                }
+                                                className: `block w-2 h-2 rounded-full transition-all duration-300 ${isOpen ? "bg-foreground" : "bg-white"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/navigation.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 99,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: `block h-1 rounded-full bg-foreground transition-all duration-500 origin-center ${isOpen ? "-rotate-45 -translate-y-2.5 bg-accent" : "rounded-b-full bg-gradient-to-r from-amber-500 to-amber-600"}`,
-                                                style: {
-                                                    borderRadius: isOpen ? "2px" : "4px 4px 999px 999px",
-                                                    height: isOpen ? "3px" : "6px"
-                                                }
+                                                className: `block w-2 h-2 rounded-full transition-all duration-300 ${isOpen ? "bg-foreground" : "bg-[#CE1126]" // Red from Mexican flag
+                                                }`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/navigation.tsx",
-                                                lineNumber: 114,
+                                                lineNumber: 105,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -249,7 +239,7 @@ function Navigation() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/navigation.tsx",
-                                                lineNumber: 151,
+                                                lineNumber: 136,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -257,30 +247,30 @@ function Navigation() {
                                                 children: link.label
                                             }, void 0, false, {
                                                 fileName: "[project]/components/navigation.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 137,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "menu-line h-[2px] w-0 bg-foreground ml-4 hidden md:block"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/navigation.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 140,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/navigation.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 135,
                                         columnNumber: 17
                                     }, this)
                                 }, link.href, false, {
                                     fileName: "[project]/components/navigation.tsx",
-                                    lineNumber: 141,
+                                    lineNumber: 126,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/navigation.tsx",
-                            lineNumber: 139,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -301,17 +291,17 @@ function Navigation() {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/components/navigation.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 164,
                                                 columnNumber: 19
                                             }, this)
                                         }, social.label, false, {
                                             fileName: "[project]/components/navigation.tsx",
-                                            lineNumber: 173,
+                                            lineNumber: 158,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/navigation.tsx",
-                                    lineNumber: 171,
+                                    lineNumber: 156,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -320,29 +310,29 @@ function Navigation() {
                                         children: "Kiosk 14 Market Walk, Woking, GU21 6AA"
                                     }, void 0, false, {
                                         fileName: "[project]/components/navigation.tsx",
-                                        lineNumber: 186,
+                                        lineNumber: 171,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/navigation.tsx",
-                                    lineNumber: 185,
+                                    lineNumber: 170,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/navigation.tsx",
-                            lineNumber: 162,
+                            lineNumber: 147,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/navigation.tsx",
-                    lineNumber: 137,
+                    lineNumber: 122,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/navigation.tsx",
-                lineNumber: 132,
+                lineNumber: 117,
                 columnNumber: 7
             }, this)
         ]
@@ -376,7 +366,12 @@ var _s = __turbopack_context__.k.signature();
 function ParallaxHero() {
     _s();
     const [scrollY, setScrollY] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const [mousePosition, setMousePosition] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
+        x: 0,
+        y: 0
+    });
     const heroRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const animationRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(0);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ParallaxHero.useEffect": ()=>{
             const handleScroll = {
@@ -389,11 +384,35 @@ function ParallaxHero() {
                     }
                 }
             }["ParallaxHero.useEffect.handleScroll"];
+            const handleMouseMove = {
+                "ParallaxHero.useEffect.handleMouseMove": (e)=>{
+                    if (!animationRef.current) {
+                        animationRef.current = requestAnimationFrame({
+                            "ParallaxHero.useEffect.handleMouseMove": ()=>{
+                                setMousePosition({
+                                    x: (e.clientX / window.innerWidth - 0.5) * 20,
+                                    y: (e.clientY / window.innerHeight - 0.5) * 10
+                                });
+                                animationRef.current = undefined;
+                            }
+                        }["ParallaxHero.useEffect.handleMouseMove"]);
+                    }
+                }
+            }["ParallaxHero.useEffect.handleMouseMove"];
             window.addEventListener("scroll", handleScroll, {
                 passive: true
             });
+            window.addEventListener("mousemove", handleMouseMove, {
+                passive: true
+            });
             return ({
-                "ParallaxHero.useEffect": ()=>window.removeEventListener("scroll", handleScroll)
+                "ParallaxHero.useEffect": ()=>{
+                    window.removeEventListener("scroll", handleScroll);
+                    window.removeEventListener("mousemove", handleMouseMove);
+                    if (animationRef.current) {
+                        cancelAnimationFrame(animationRef.current);
+                    }
+                }
             })["ParallaxHero.useEffect"];
         }
     }["ParallaxHero.useEffect"], []);
@@ -411,22 +430,22 @@ function ParallaxHero() {
                     children: "CHUCHOS"
                 }, void 0, false, {
                     fileName: "[project]/components/parallax-hero.tsx",
-                    lineNumber: 34,
+                    lineNumber: 56,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/parallax-hero.tsx",
-                lineNumber: 28,
+                lineNumber: 50,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative z-10 min-h-screen flex flex-col justify-center px-4 md:px-8 lg:px-16 pt-24",
+                className: "relative z-10 min-h-screen flex flex-col justify-center items-center text-center px-4 md:px-8 lg:px-16 pt-32",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "max-w-5xl",
+                        className: "max-w-5xl w-full",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "reveal-text flex items-center gap-4 mb-6",
+                                className: "reveal-text flex justify-center items-center gap-4 mb-6",
                                 style: {
                                     animationDelay: "0.2s"
                                 },
@@ -435,7 +454,7 @@ function ParallaxHero() {
                                         className: "w-12 h-[2px] bg-accent"
                                     }, void 0, false, {
                                         fileName: "[project]/components/parallax-hero.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 66,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -443,54 +462,49 @@ function ParallaxHero() {
                                         children: "AUTHENTIC MEXICAN STREET FOOD"
                                     }, void 0, false, {
                                         fileName: "[project]/components/parallax-hero.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 67,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/parallax-hero.tsx",
-                                lineNumber: 43,
+                                lineNumber: 65,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "reveal-text font-display text-6xl md:text-8xl lg:text-9xl leading-[0.85] tracking-tight text-foreground",
+                                className: "reveal-text font-display text-6xl md:text-8xl lg:text-9xl leading-[0.85] tracking-tight text-foreground text-center mx-auto",
                                 style: {
                                     animationDelay: "0.4s"
                                 },
                                 children: [
-                                    "TASTE THE",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/components/parallax-hero.tsx",
-                                        lineNumber: 56,
-                                        columnNumber: 13
-                                    }, this),
+                                    "TASTE THE ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-accent",
                                         children: "REVOLUTION"
                                     }, void 0, false, {
                                         fileName: "[project]/components/parallax-hero.tsx",
-                                        lineNumber: 57,
-                                        columnNumber: 13
+                                        lineNumber: 77,
+                                        columnNumber: 23
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/parallax-hero.tsx",
-                                lineNumber: 51,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "reveal-text mt-8 max-w-md text-muted-foreground text-base md:text-lg leading-relaxed",
+                                className: "reveal-text mt-8 max-w-md mx-auto text-muted-foreground text-base md:text-lg leading-relaxed text-center",
                                 style: {
                                     animationDelay: "0.6s"
                                 },
                                 children: "Immerse yourself in a bold culinary experience. Handcrafted tacos, fresh salsas, and flavors that hit different."
                             }, void 0, false, {
                                 fileName: "[project]/components/parallax-hero.tsx",
-                                lineNumber: 61,
+                                lineNumber: 81,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "reveal-text flex flex-wrap gap-4 mt-10",
+                                className: "reveal-text flex flex-wrap justify-center gap-4 mt-10 w-full",
                                 style: {
                                     animationDelay: "0.8s"
                                 },
@@ -504,7 +518,7 @@ function ParallaxHero() {
                                                 children: "VIEW MENU"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/parallax-hero.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 95,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -519,18 +533,18 @@ function ParallaxHero() {
                                                     d: "M17 8l4 4m0 0l-4 4m4-4H3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/parallax-hero.tsx",
-                                                    lineNumber: 82,
+                                                    lineNumber: 102,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/parallax-hero.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 96,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/parallax-hero.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 91,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -540,24 +554,24 @@ function ParallaxHero() {
                                             children: "FIND US"
                                         }, void 0, false, {
                                             fileName: "[project]/components/parallax-hero.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 109,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/parallax-hero.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 105,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/parallax-hero.tsx",
-                                lineNumber: 70,
+                                lineNumber: 90,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/parallax-hero.tsx",
-                        lineNumber: 41,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -572,78 +586,287 @@ function ParallaxHero() {
                                 children: "SCROLL"
                             }, void 0, false, {
                                 fileName: "[project]/components/parallax-hero.tsx",
-                                lineNumber: 102,
+                                lineNumber: 122,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-[1px] h-12 bg-gradient-to-b from-accent to-transparent"
                             }, void 0, false, {
                                 fileName: "[project]/components/parallax-hero.tsx",
-                                lineNumber: 103,
+                                lineNumber: 123,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/parallax-hero.tsx",
-                        lineNumber: 95,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/parallax-hero.tsx",
-                lineNumber: 40,
+                lineNumber: 62,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 pointer-events-none z-20",
+                className: "absolute inset-0 pointer-events-none z-20 flex justify-center",
                 style: {
                     transform: `translateY(${scrollY * -0.5}px)`
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "absolute right-0 md:right-[-5%] top-1/4 md:top-[15%] w-[90vw] md:w-[65vw] lg:w-[55vw] h-[85vh]",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/images/mexican-wrestler.png",
-                        alt: "Mexican Luchador",
-                        fill: true,
-                        className: "object-contain object-right brightness-[2] contrast-125",
+                    className: "absolute left-1/2 -translate-x-1/2 top-[-3%] sm:top-[-5%] md:top-[-15%] lg:top-[-15%] xl:top-[-20%] w-[90vw] md:w-[70vw] lg:w-[50vw] h-[60vh] md:h-[75vh]",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute inset-0 subtle-pulse luchador-enter",
                         style: {
-                            filter: "brightness(2) contrast(1.25)"
+                            transform: `translateX(${mousePosition.x * 0.3}px) translateY(${mousePosition.y * 0.3}px)`
                         },
-                        priority: true
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            src: "/images/mexican-wrestler.png",
+                            alt: "Mexican Luchador",
+                            fill: true,
+                            className: "object-contain object-center brightness-[2] contrast-125 transition-transform duration-300",
+                            style: {
+                                filter: "brightness(2) contrast(1.25)",
+                                transform: `rotate(${mousePosition.x * 0.2}deg) scale(${1 + mousePosition.y * 0.001})`
+                            },
+                            priority: true
+                        }, void 0, false, {
+                            fileName: "[project]/components/parallax-hero.tsx",
+                            lineNumber: 140,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/parallax-hero.tsx",
-                        lineNumber: 114,
+                        lineNumber: 134,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/parallax-hero.tsx",
-                    lineNumber: 113,
+                    lineNumber: 133,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/parallax-hero.tsx",
-                lineNumber: 107,
+                lineNumber: 127,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-20 right-8 md:right-16 text-accent/20 font-display text-6xl md:text-8xl pointer-events-none",
+                className: "absolute top-16 left-8 md:left-16 w-20 h-20 md:w-24 md:h-24 pointer-events-none floating",
                 style: {
-                    transform: `translateY(${scrollY * 0.2}px) rotate(-15deg)`
+                    animation: 'zoomOut 0.8s ease-out 0.2s forwards, float 12s ease-in-out 0s infinite',
+                    opacity: 0,
+                    transform: `translateY(${scrollY * 0.1}px) rotate(15deg) translateX(${mousePosition.x * 0.1}px) translateY(${mousePosition.y * 0.1}px)`
                 },
-                children: "★"
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: "/taco.png",
+                    alt: "",
+                    fill: true,
+                    className: "object-contain",
+                    style: {
+                        filter: "drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))"
+                    }
+                }, void 0, false, {
+                    fileName: "[project]/components/parallax-hero.tsx",
+                    lineNumber: 165,
+                    columnNumber: 9
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/components/parallax-hero.tsx",
-                lineNumber: 128,
+                lineNumber: 157,
                 columnNumber: 7
-            }, this)
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-20 right-8 md:right-16 w-24 h-24 md:w-28 md:h-28 pointer-events-none floating",
+                style: {
+                    animation: 'zoomOut 0.8s ease-out 0.3s forwards, float 14s ease-in-out 0s infinite',
+                    opacity: 0,
+                    transform: `translateY(${scrollY * 0.2}px) rotate(-15deg) translateX(${mousePosition.x * -0.1}px) translateY(${mousePosition.y * 0.15}px)`
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: "/taco.png",
+                    alt: "",
+                    fill: true,
+                    className: "object-contain",
+                    style: {
+                        filter: "drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25))"
+                    }
+                }, void 0, false, {
+                    fileName: "[project]/components/parallax-hero.tsx",
+                    lineNumber: 185,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/parallax-hero.tsx",
+                lineNumber: 177,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-32 left-12 md:left-24 w-16 h-16 md:w-20 md:h-20 pointer-events-none floating",
+                style: {
+                    animation: 'zoomOut 0.8s ease-out 0.4s forwards, float 13s ease-in-out 0s infinite',
+                    opacity: 0,
+                    transform: `translateY(${scrollY * 0.15}px) rotate(30deg) translateX(${mousePosition.x * 0.15}px) translateY(${mousePosition.y * 0.05}px)`
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: "/taco.png",
+                    alt: "",
+                    fill: true,
+                    className: "object-contain",
+                    style: {
+                        filter: "drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))"
+                    }
+                }, void 0, false, {
+                    fileName: "[project]/components/parallax-hero.tsx",
+                    lineNumber: 205,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/parallax-hero.tsx",
+                lineNumber: 197,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-40 right-12 md:right-24 w-14 h-14 md:w-16 md:h-16 pointer-events-none floating",
+                style: {
+                    animation: 'zoomOut 0.8s ease-out 0.5s forwards, float 15s ease-in-out 0s infinite',
+                    opacity: 0,
+                    transform: `translateY(${scrollY * 0.25}px) rotate(-30deg) translateX(${mousePosition.x * -0.15}px) translateY(${mousePosition.y * 0.1}px)`
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: "/taco.png",
+                    alt: "",
+                    fill: true,
+                    className: "object-contain",
+                    style: {
+                        filter: "drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))"
+                    }
+                }, void 0, false, {
+                    fileName: "[project]/components/parallax-hero.tsx",
+                    lineNumber: 225,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/parallax-hero.tsx",
+                lineNumber: 217,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-1/4 left-4 md:left-8 w-12 h-12 md:w-16 md:h-16 pointer-events-none floating",
+                style: {
+                    animation: 'zoomOut 0.8s ease-out 0.6s forwards, float 13s ease-in-out 1.5s infinite',
+                    opacity: 0,
+                    transform: `translateY(${scrollY * 0.1}px) rotate(45deg) translateX(${mousePosition.x * 0.1}px) translateY(${mousePosition.y * 0.05}px)`
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: "/taco.png",
+                    alt: "",
+                    fill: true,
+                    className: "object-contain",
+                    style: {
+                        filter: "drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))"
+                    }
+                }, void 0, false, {
+                    fileName: "[project]/components/parallax-hero.tsx",
+                    lineNumber: 246,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/parallax-hero.tsx",
+                lineNumber: 238,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-1/3 right-4 md:right-8 w-14 h-14 md:w-18 md:h-18 pointer-events-none floating",
+                style: {
+                    animation: 'zoomOut 0.8s ease-out 0.7s forwards, float 14s ease-in-out 2.5s infinite',
+                    opacity: 0,
+                    transform: `translateY(${scrollY * 0.15}px) rotate(-20deg) translateX(${mousePosition.x * -0.1}px) translateY(${mousePosition.y * 0.08}px)`
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: "/taco.png",
+                    alt: "",
+                    fill: true,
+                    className: "object-contain",
+                    style: {
+                        filter: "drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))"
+                    }
+                }, void 0, false, {
+                    fileName: "[project]/components/parallax-hero.tsx",
+                    lineNumber: 266,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/parallax-hero.tsx",
+                lineNumber: 258,
+                columnNumber: 7
+            }, this),
+            [
+                ...Array(4)
+            ].map((_, i)=>{
+                const positions = [
+                    {
+                        top: '15%',
+                        left: '20%',
+                        rotate: 25
+                    },
+                    {
+                        top: '25%',
+                        right: '15%',
+                        rotate: -15
+                    },
+                    {
+                        bottom: '30%',
+                        left: '15%',
+                        rotate: 35
+                    },
+                    {
+                        bottom: '20%',
+                        right: '20%',
+                        rotate: -25
+                    }
+                ];
+                const pos = positions[i];
+                const delay = 0.6 + i * 0.2;
+                const duration = 10 + i * 2;
+                const zoomDelay = 0.3 + i * 0.1;
+                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: `absolute w-8 h-8 md:w-10 md:h-10 pointer-events-none floating zoom-out`,
+                    style: {
+                        top: pos.top,
+                        [pos.right ? 'right' : 'left']: pos.right || pos.left,
+                        animationDelay: `${delay}s`,
+                        animationDuration: `${duration}s`,
+                        opacity: 0,
+                        /* Start transparent */ animation: `zoomOut 1s ease-out ${zoomDelay}s forwards, float ${duration}s ease-in-out ${delay}s infinite`,
+                        transform: `translateY(${scrollY * (0.1 + i * 0.05)}px) rotate(${pos.rotate}deg) translateX(${mousePosition.x * (i % 2 ? -0.05 : 0.05)}px)`
+                    },
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        src: "/taco.png",
+                        alt: "",
+                        fill: true,
+                        className: "object-contain",
+                        style: {
+                            filter: "drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1))"
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/components/parallax-hero.tsx",
+                        lineNumber: 307,
+                        columnNumber: 13
+                    }, this)
+                }, `taco-${i}`, false, {
+                    fileName: "[project]/components/parallax-hero.tsx",
+                    lineNumber: 294,
+                    columnNumber: 11
+                }, this);
+            })
         ]
     }, void 0, true, {
         fileName: "[project]/components/parallax-hero.tsx",
-        lineNumber: 26,
+        lineNumber: 48,
         columnNumber: 5
     }, this);
 }
-_s(ParallaxHero, "dV6HAI1dAj/MQP3NpmNyjocmKmw=");
+_s(ParallaxHero, "+FyjHsmG2MEOLYKlrVffn2bcnD0=");
 _c = ParallaxHero;
 var _c;
 __turbopack_context__.k.register(_c, "ParallaxHero");
