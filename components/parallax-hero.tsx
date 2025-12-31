@@ -8,7 +8,7 @@ export function ParallaxHero() {
   const [scrollY, setScrollY] = useState(0)
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const heroRef = useRef<HTMLDivElement>(null)
-  const animationRef = useRef<number>(0)
+  const animationRef = useRef<number | null>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,12 +22,12 @@ export function ParallaxHero() {
 
     const handleMouseMove = (e: MouseEvent) => {
       if (!animationRef.current) {
-        animationRef.current = requestAnimationFrame(() => {
+        animationRef.current = window.requestAnimationFrame(() => {
           setMousePosition({
             x: (e.clientX / window.innerWidth - 0.5) * 20,
             y: (e.clientY / window.innerHeight - 0.5) * 10
           })
-          animationRef.current = undefined
+          animationRef.current = null
         })
       }
     }

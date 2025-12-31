@@ -371,7 +371,7 @@ function ParallaxHero() {
         y: 0
     });
     const heroRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const animationRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(0);
+    const animationRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ParallaxHero.useEffect": ()=>{
             const handleScroll = {
@@ -387,13 +387,13 @@ function ParallaxHero() {
             const handleMouseMove = {
                 "ParallaxHero.useEffect.handleMouseMove": (e)=>{
                     if (!animationRef.current) {
-                        animationRef.current = requestAnimationFrame({
+                        animationRef.current = window.requestAnimationFrame({
                             "ParallaxHero.useEffect.handleMouseMove": ()=>{
                                 setMousePosition({
                                     x: (e.clientX / window.innerWidth - 0.5) * 20,
                                     y: (e.clientY / window.innerHeight - 0.5) * 10
                                 });
-                                animationRef.current = undefined;
+                                animationRef.current = null;
                             }
                         }["ParallaxHero.useEffect.handleMouseMove"]);
                     }
