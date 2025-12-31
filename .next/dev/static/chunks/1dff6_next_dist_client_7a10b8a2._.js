@@ -3175,6 +3175,7 @@ function AppContainer({ children }) {
                                             ("TURBOPACK compile-time value", 3840)
                                         ]),
                                         "imageSizes": ("TURBOPACK compile-time value", [
+                                            ("TURBOPACK compile-time value", 16),
                                             ("TURBOPACK compile-time value", 32),
                                             ("TURBOPACK compile-time value", 48),
                                             ("TURBOPACK compile-time value", 64),
@@ -3189,8 +3190,10 @@ function AppContainer({ children }) {
                                         "path": ("TURBOPACK compile-time value", "/_next/image"),
                                         "loader": ("TURBOPACK compile-time value", "default"),
                                         "dangerouslyAllowSVG": ("TURBOPACK compile-time value", false),
-                                        "unoptimized": ("TURBOPACK compile-time value", true),
-                                        "domains": ("TURBOPACK compile-time value", []),
+                                        "unoptimized": ("TURBOPACK compile-time value", false),
+                                        "domains": ("TURBOPACK compile-time value", [
+                                            ("TURBOPACK compile-time value", "chuchos.co.uk")
+                                        ]),
                                         "remotePatterns": ("TURBOPACK compile-time value", []),
                                         "localPatterns": ("TURBOPACK compile-time value", [
                                             ("TURBOPACK compile-time value", {
@@ -3443,7 +3446,9 @@ function doRender(input) {
                 callback,
                 onRootCommit
             ],
-            children: ("TURBOPACK compile-time falsy", 0) ? /*#__PURE__*/ "TURBOPACK unreachable" : elem
+            children: ("TURBOPACK compile-time truthy", 1) ? /*#__PURE__*/ (0, _jsxruntime.jsx)(_react.default.StrictMode, {
+                children: elem
+            }) : "TURBOPACK unreachable"
         }));
     return renderPromise;
 }

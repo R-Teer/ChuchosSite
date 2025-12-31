@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+# Disallow decorative images from indexing
+Disallow: /images/wrestler*
+Disallow: /images/tacos*
+Disallow: /images/assorti*
+
+# Sitemap
 Sitemap: https://chuchos.co.uk/sitemap.xml

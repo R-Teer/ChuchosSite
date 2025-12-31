@@ -1,8 +1,9 @@
 "use client"
 
 import { useEffect, useState, useRef } from "react"
-import Image from "next/image"
 import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { OptimizedImage } from "@/components/OptimizedImage"
 
 export function ParallaxHero() {
   const [scrollY, setScrollY] = useState(0)
@@ -137,16 +138,18 @@ export function ParallaxHero() {
               transform: `translateX(${mousePosition.x * 0.3}px) translateY(${mousePosition.y * 0.3}px)`
             }}
           >
-            <Image
+            <OptimizedImage
               src="/images/mexican-wrestler.png"
-              alt="Mexican Luchador"
+              alt="Chuchos Mexican Luchador mascot - A colorful Mexican wrestler character representing authentic Mexican street food"
               fill
+              priority
+              blurWidth={400}
+              blurHeight={600}
               className="object-contain object-center brightness-[2] contrast-125 transition-transform duration-300"
               style={{
                 filter: "brightness(2) contrast(1.25)",
                 transform: `rotate(${mousePosition.x * 0.2}deg) scale(${1 + (mousePosition.y * 0.001)})`
               }}
-              priority
             />
           </div>
         </div>
@@ -162,10 +165,12 @@ export function ParallaxHero() {
           transform: `translateY(${scrollY * 0.1}px) rotate(15deg) translateX(${mousePosition.x * 0.1}px) translateY(${mousePosition.y * 0.1}px)`
         }}
       >
-        <Image
+        <OptimizedImage
           src="/taco.png"
-          alt=""
+          alt="Decorative taco illustration - Traditional Mexican taco with fresh ingredients"
           fill
+          blurWidth={100}
+          blurHeight={100}
           className="object-contain"
           style={{
             filter: "drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))"
@@ -182,15 +187,17 @@ export function ParallaxHero() {
           transform: `translateY(${scrollY * 0.2}px) rotate(-15deg) translateX(${mousePosition.x * -0.1}px) translateY(${mousePosition.y * 0.15}px)`
         }}
       >
-        <Image
+        <OptimizedImage
           src="/taco.png"
-          alt=""
+          alt="Decorative taco illustration - Traditional Mexican taco with meat, onions, and cilantro"
           fill
-          className="object-contain"
+          blurWidth={100}
+          blurHeight={100}
+          className="object-contain object-center opacity-30"
           style={{
-            filter: "drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25))"
+            transform: `rotate(${mousePosition.x * 0.15}deg) scale(${1 + (mousePosition.y * 0.0003)})`,
           }}
-        />
+          priority/>
       </div>
 
       {/* Bottom Left Taco */}
@@ -202,13 +209,15 @@ export function ParallaxHero() {
           transform: `translateY(${scrollY * 0.15}px) rotate(30deg) translateX(${mousePosition.x * 0.15}px) translateY(${mousePosition.y * 0.05}px)`
         }}
       >
-        <Image
+        <OptimizedImage
           src="/taco.png"
-          alt=""
+          alt="Decorative taco illustration - Authentic Mexican taco with slow-cooked meat and fresh toppings"
           fill
-          className="object-contain"
+          blurWidth={100}
+          blurHeight={100}
+          className="object-contain object-center opacity-40"
           style={{
-            filter: "drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))"
+            transform: `rotate(${mousePosition.x * 0.1}deg) scale(${1 + (mousePosition.y * 0.0003)})`,
           }}
         />
       </div>
@@ -222,13 +231,15 @@ export function ParallaxHero() {
           transform: `translateY(${scrollY * 0.25}px) rotate(-30deg) translateX(${mousePosition.x * -0.15}px) translateY(${mousePosition.y * 0.1}px)`
         }}
       >
-        <Image
+        <OptimizedImage
           src="/taco.png"
-          alt=""
+          alt="Decorative taco illustration - Classic Mexican street taco with fresh ingredients"
           fill
-          className="object-contain"
+          blurWidth={100}
+          blurHeight={100}
+          className="object-contain object-center opacity-50"
           style={{
-            filter: "drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))"
+            transform: `rotate(${mousePosition.x * -0.1}deg) scale(${1 + (mousePosition.y * 0.0004)})`,
           }}
         />
       </div>
@@ -243,13 +254,15 @@ export function ParallaxHero() {
           transform: `translateY(${scrollY * 0.1}px) rotate(45deg) translateX(${mousePosition.x * 0.1}px) translateY(${mousePosition.y * 0.05}px)`
         }}
       >
-        <Image
+        <OptimizedImage
           src="/taco.png"
-          alt=""
+          alt="Decorative taco illustration - Handmade Mexican taco with fresh cilantro and onions"
           fill
-          className="object-contain"
+          blurWidth={100}
+          blurHeight={100}
+          className="object-contain object-center opacity-30"
           style={{
-            filter: "drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))"
+            transform: `rotate(${mousePosition.x * 0.05}deg) scale(${1 + (mousePosition.y * 0.0005)})`,
           }}
         />
       </div>
@@ -263,13 +276,15 @@ export function ParallaxHero() {
           transform: `translateY(${scrollY * 0.15}px) rotate(-20deg) translateX(${mousePosition.x * -0.1}px) translateY(${mousePosition.y * 0.08}px)`
         }}
       >
-        <Image
+        <OptimizedImage
           src="/taco.png"
-          alt=""
+          alt="Decorative taco illustration - Authentic birria taco with melted cheese and consommé"
           fill
-          className="object-contain"
+          blurWidth={100}
+          blurHeight={100}
+          className="object-contain object-center opacity-35"
           style={{
-            filter: "drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))"
+            transform: `rotate(${mousePosition.x * -0.08}deg) scale(${1 + (mousePosition.y * 0.0006)})`,
           }}
         />
       </div>
@@ -304,18 +319,20 @@ export function ParallaxHero() {
               transform: `translateY(${scrollY * (0.1 + (i * 0.05))}px) rotate(${pos.rotate}deg) translateX(${mousePosition.x * (i % 2 ? -0.05 : 0.05)}px)`
             }}
           >
-            <Image
+            <OptimizedImage
               src="/taco.png"
-              alt=""
+              alt={`Decorative taco illustration - Small Mexican taco with fresh ingredients (${i + 1} of 4)`}
               fill
-              className="object-contain"
+              className="object-contain opacity-20"
               style={{
-                filter: "drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1))"
+                transform: `rotate(${mousePosition.x * (i % 2 ? -0.05 : 0.05)}deg)`
               }}
+              blurWidth={100}
+              blurHeight={100}
             />
           </div>
         );
       })}
     </div>
-  )
+  );
 }

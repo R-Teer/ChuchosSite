@@ -1,7 +1,10 @@
 import { Metadata } from 'next';
 
 export default function StructuredData() {
-  const schema = {
+  const baseUrl = 'https://chuchos.co.uk';
+  
+  // Main schema for the restaurant
+  const restaurantSchema = {
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "@id": "#restaurant",
@@ -44,10 +47,67 @@ export default function StructuredData() {
     ]
   };
 
+  // Website schema
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "#website",
+    "url": baseUrl,
+    "name": "Chuchos",
+    "description": "Authentic Mexican Street Food in Woking, Surrey",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": `${baseUrl}/search?q={search_term_string}`,
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  // WebPage schema
+  const webpageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "#webpage",
+    "url": baseUrl,
+    "name": "Chuchos | Authentic Mexican Street Food",
+    "isPartOf": {
+      "@id": "#website"
+    },
+    "about": {
+      "@id": "#restaurant"
+    },
+    "primaryImageOfPage": {
+      "@id": `${baseUrl}/og-image.jpg`
+    },
+    "datePublished": "2023-01-01T00:00:00+00:00",
+    "dateModified": new Date().toISOString().split('T')[0]
+  };
+
+  // Breadcrumb schema
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": baseUrl
+      }
+    ]
+  };
+
+  // Combine all schemas
+  const schemas = [restaurantSchema, websiteSchema, webpageSchema, breadcrumbSchema];
+
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    <>
+      {schemas.map((schema, index) => (
+        <script
+          key={index}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+    </>
   );
 }

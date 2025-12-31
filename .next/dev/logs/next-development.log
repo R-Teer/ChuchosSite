@@ -1,12 +1,2150 @@
-[00:00:08.453] Server  LOG      ✓ Ready in 5.3s
-[00:00:11.479] Server  LOG      ○ Compiling / ...
-[00:00:15.411] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:15.411] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:15.411] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767196622332}
-[00:00:22.925] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:22.925] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767196629834}
-[00:00:46.745] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767196653657}
-[00:00:57.058] Server  LOG      ✓ Compiled in 222ms
-[00:01:02.413] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:02.414] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
-[00:01:02.414] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767196669333}
+[00:00:01.629] Server  LOG      ✓ Ready in 932ms
+[00:00:04.664] Server  LOG      ○ Compiling /contact ...
+[00:00:08.423] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:08.423] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:00:08.423] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197100058}
+[00:00:21.335] Server  LOG      ✓ Compiled in 155ms
+[00:00:24.606] Server  WARN     ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+[00:00:24.610] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:24.610] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197116921}
+[00:00:27.414] Browser WARN    Image with src "/taco.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.150] Browser WARN    Image with src "/images/mexican-wrestler.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.150] Browser WARN    Image with src "/images/tacos.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.150] Browser WARN    Image with src "/images/ramen.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.150] Browser WARN    Image with src "/images/quesadilla.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.261] Browser WARN    Image with src "/images/torta.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:35.488] Server  LOG      ✓ Compiled in 67ms
+[00:00:41.495] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faq color: rgb(120, 120, 120) color: inherit {"dp":"/faq","o":"http://localhost:3000/faq","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197133865}
+[00:00:58.242] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197150612}
+[00:01:01.065] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197153427}
+[00:01:01.543] Browser WARN    Image with src "/images/churros.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:01.543] Browser WARN    Image with src "/images/chilaquilles.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:03.336] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faq color: rgb(120, 120, 120) color: inherit {"dp":"/faq","o":"http://localhost:3000/faq","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197155706}
+[00:01:04.540] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197156911}
+[00:01:06.531] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197158897}
+[00:01:09.999] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faq color: rgb(120, 120, 120) color: inherit {"dp":"/faq","o":"http://localhost:3000/faq","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197162368}
+[00:01:11.709] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197164078}
+[00:02:06.264] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faq color: rgb(120, 120, 120) color: inherit {"dp":"/faq","o":"http://localhost:3000/faq","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197218633}
+[00:02:24.432] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767197236793}
+[00:02:27.924] Server  ERROR    ⨯ ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+
+
+[00:02:28.052] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:28.786] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:28.786] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:29.313] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:29.327] Server  ERROR    ⨯ ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+
+
+[00:02:29.435] Browser ERROR   uncaughtError: Error: ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+
+
+[00:02:29.607] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:29.607] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:29.984] Server  ERROR    ⨯ ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+
+
+[00:02:30.066] Browser ERROR   uncaughtError: Error: ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+
+
+[00:02:30.208] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:30.208] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:31.995] Browser ERROR   uncaughtError: Error: ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+
+
+[00:02:32.140] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:32.140] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:35.092] Browser ERROR   uncaughtError: Error: ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+
+
+[00:02:35.229] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:35.229] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:35.939] Browser ERROR   uncaughtError: Error: ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+
+
+[00:02:36.077] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:36.077] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:02:47.360] Server  ERROR    ⨯ ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:47.361] Server  ERROR    ⨯ ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:47.362] Server  ERROR    ⨯ ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:47.363] Server  ERROR    ⨯ ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:47.364] Server  ERROR    ⨯ ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:47.364] Server  ERROR    ⨯ ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:47.514] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:47.514] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:19:07.182] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:19:07.329] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:07.329] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:19:07.329] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:07.329] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:19:08.822] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:19:08.962] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:08.962] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:19:08.962] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:08.962] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:19:10.808] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:19:10.954] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:10.954] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:19:10.954] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:10.954] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:19:12.498] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:19:12.639] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:12.639] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[00:19:12.639] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:12.639] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:05:07.834] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:07.981] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:07.981] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:05:07.981] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:07.981] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:11:35.326] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:11:35.486] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:11:35.486] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:11:35.486] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:11:35.486] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:31:36.421] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:31:36.421] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:31:48.421] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:31:48.421] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:34:37.768] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:37.918] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:37.918] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:34:37.918] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:37.918] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:34:38.886] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:39.031] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:39.031] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:34:39.031] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:39.031] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:34:58.896] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:59.039] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:59.039] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:34:59.039] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:59.039] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:37:02.430] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:37:02.573] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:37:02.574] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:37:02.574] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:37:02.574] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:44:36.520] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:44:36.666] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:44:36.666] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:44:36.666] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:44:36.666] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[01:45:24.674] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:45:24.674] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[03:18:42.744] Browser ERROR   uncaughtError: Error: ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:18:42.891] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[03:18:42.891] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[03:18:42.891] Browser ERROR   ./components/faq-section.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { motion, AnimatePresence } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type FAQItem = {
+  7 |   question: string;
+
+Import trace:
+  Server Component:
+    ./components/faq-section.tsx
+    ./app/faq/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[03:18:42.891] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[03:20:21.899] Server  LOG      ✓ Compiled in 155ms
+[03:20:22.003] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[03:20:52.372] Browser ERROR   uncaughtError: Error: ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+
+
+[03:20:52.529] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[03:20:52.529] Browser ERROR   ./app/menu/page.tsx:602:7
+Parsing ecmascript source code failed
+  600 |
+  601 |       <Footer />
+> 602 |     </main>
+      |       ^^^^
+  603 |   )
+  604 | }
+  605 |
+
+Expected corresponding JSX closing tag for <div>
+[03:21:10.228] Browser ERROR   ./lib/menu-schema.ts:48:7
+Parsing ecmascript source code failed
+  46 |   return (
+  47 |     <script
+> 48 |       type="application/ld+json"
+     |       ^^^^
+  49 |       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+  50 |     />
+  51 |   );
+
+Expected '>', got 'type'
+
+Import traces:
+  Client Component Browser:
+    ./lib/menu-schema.ts [Client Component Browser]
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/menu-schema.ts [Client Component SSR]
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[03:21:17.681] Browser ERROR   uncaughtError: Error: ./lib/menu-schema.ts:48:7
+Parsing ecmascript source code failed
+  46 |   return (
+  47 |     <script
+> 48 |       type="application/ld+json"
+     |       ^^^^
+  49 |       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+  50 |     />
+  51 |   );
+
+Expected '>', got 'type'
+
+Import traces:
+  Client Component Browser:
+    ./lib/menu-schema.ts [Client Component Browser]
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/menu-schema.ts [Client Component SSR]
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+
+
+[03:21:17.823] Browser ERROR   ./lib/menu-schema.ts:48:7
+Parsing ecmascript source code failed
+  46 |   return (
+  47 |     <script
+> 48 |       type="application/ld+json"
+     |       ^^^^
+  49 |       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+  50 |     />
+  51 |   );
+
+Expected '>', got 'type'
+
+Import traces:
+  Client Component Browser:
+    ./lib/menu-schema.ts [Client Component Browser]
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/menu-schema.ts [Client Component SSR]
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[03:21:17.823] Browser ERROR   ./lib/menu-schema.ts:48:7
+Parsing ecmascript source code failed
+  46 |   return (
+  47 |     <script
+> 48 |       type="application/ld+json"
+     |       ^^^^
+  49 |       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+  50 |     />
+  51 |   );
+
+Expected '>', got 'type'
+
+Import traces:
+  Client Component Browser:
+    ./lib/menu-schema.ts [Client Component Browser]
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/menu-schema.ts [Client Component SSR]
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[03:21:40.812] Browser ERROR   ./lib/menu-schema.ts:47:7
+Parsing ecmascript source code failed
+  45 |   return (
+  46 |     <script
+> 47 |       type="application/ld+json"
+     |       ^^^^
+  48 |       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+  49 |     />
+  50 |   );
+
+Expected '>', got 'type'
+
+Import traces:
+  Client Component Browser:
+    ./lib/menu-schema.ts [Client Component Browser]
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/menu-schema.ts [Client Component SSR]
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[03:21:46.829] Browser ERROR   ./lib/menu-schema.ts:47:7
+Parsing ecmascript source code failed
+  45 |   return (
+  46 |     <script
+> 47 |       type="application/ld+json"
+     |       ^^^^
+  48 |       dangerouslySetInnerHTML={{
+  49 |         __html: schemaString,
+  50 |       }}
+
+Expected '>', got 'type'
+
+Import traces:
+  Client Component Browser:
+    ./lib/menu-schema.ts [Client Component Browser]
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/menu-schema.ts [Client Component SSR]
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[03:21:57.302] Browser ERROR   ./lib/menu-schema.ts:44:7
+Parsing ecmascript source code failed
+  42 |   return (
+  43 |     <script
+> 44 |       type="application/ld+json"
+     |       ^^^^
+  45 |       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+  46 |     />
+  47 |   );
+
+Expected '>', got 'type'
+
+Import traces:
+  Client Component Browser:
+    ./lib/menu-schema.ts [Client Component Browser]
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/menu-schema.ts [Client Component SSR]
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[03:22:27.401] Browser ERROR   ./lib/menu-schema.ts:44:7
+Parsing ecmascript source code failed
+  42 |   return (
+  43 |     <script
+> 44 |       type="application/ld+json"
+     |       ^^^^
+  45 |       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+  46 |     />
+  47 |   );
+
+Expected '>', got 'type'
+
+Import traces:
+  Client Component Browser:
+    ./lib/menu-schema.ts [Client Component Browser]
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/menu-schema.ts [Client Component SSR]
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[03:22:37.848] Browser ERROR   ./app/menu/page.tsx:8:1
+Export MenuSchemaScript doesn't exist in target module
+   6 | import { Footer } from "@/components/footer"
+   7 | import { X, ChevronLeft } from "lucide-react"
+>  8 | import { MenuSchemaScript } from "@/lib/menu-schema"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const proteins = [
+  11 |   { id: "barbacoa", name: "BARBACOA BEEF", image: "/images/barbacoa.png", basePrice: 5.0 },
+
+The export MenuSchemaScript was not found in module [project]/lib/menu-schema.ts [app-client] (ecmascript).
+Did you mean to import generateMenuSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[03:22:37.848] Browser ERROR   ./app/menu/page.tsx:8:1
+Export MenuSchemaScript doesn't exist in target module
+   6 | import { Footer } from "@/components/footer"
+   7 | import { X, ChevronLeft } from "lucide-react"
+>  8 | import { MenuSchemaScript } from "@/lib/menu-schema"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const proteins = [
+  11 |   { id: "barbacoa", name: "BARBACOA BEEF", image: "/images/barbacoa.png", basePrice: 5.0 },
+
+The export MenuSchemaScript was not found in module [project]/lib/menu-schema.ts [app-ssr] (ecmascript).
+Did you mean to import generateMenuSchema?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[03:22:44.464] Server  LOG      ✓ Compiled in 97ms
+[03:22:45.260] Browser WARN    Image with src "/images/mexican-wrestler.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:22:45.260] Browser WARN    Image with src "/taco.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:22:45.260] Browser WARN    Image with src "/images/tacos.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:22:45.260] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:22:45.260] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:22:45.260] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767209257627}
+[03:22:45.260] Browser WARN    Image with src "/images/ramen.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:22:45.260] Browser WARN    Image with src "/images/quesadilla.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:22:45.260] Browser WARN    Image with src "/images/torta.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:22:51.037] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[03:22:51.037] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faq color: rgb(120, 120, 120) color: inherit {"dp":"/faq","o":"http://localhost:3000/faq","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767209263450}
+[03:22:58.361] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767209270773}
+[03:23:04.925] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767209277332}
+[03:23:05.121] Browser WARN    Image with src "/images/pibil.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:23:05.121] Browser WARN    Image with src "/images/barbacoa.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:23:05.383] Browser WARN    Image with src "/images/tinga.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:23:07.738] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faq color: rgb(120, 120, 120) color: inherit {"dp":"/faq","o":"http://localhost:3000/faq","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767209280151}
+[03:23:11.615] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767209284017}
+[03:23:15.197] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/faq color: rgb(120, 120, 120) color: inherit {"dp":"/faq","o":"http://localhost:3000/faq","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767209287610}
+[03:24:14.987] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767209347400}
+[03:24:53.250] Server  LOG      ✓ Compiled in 88ms
+[03:26:31.206] Server  LOG      ✓ Compiled in 174ms
+[03:26:57.361] Server  LOG      ✓ Compiled in 196ms
+[03:27:08.552] Server  LOG      ✓ Compiled in 71ms
+[03:27:20.340] Server  LOG      ✓ Compiled in 105ms
+[03:27:30.296] Server  LOG      ✓ Compiled in 150ms
+[03:27:41.789] Server  LOG      ✓ Compiled in 167ms
+[03:27:41.895] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:32:11.998] Server  LOG      ✓ Compiled in 77ms
+[03:32:12.107] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:32:18.288] Server  LOG      ✓ Compiled in 108ms
+[03:32:18.436] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:32:27.331] Server  LOG      ✓ Compiled in 75ms
+[03:32:27.445] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:32:33.172] Server  LOG      ✓ Compiled in 84ms
+[03:32:33.274] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:33:30.266] Server  LOG      ✓ Compiled in 89ms
+[03:33:30.380] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:34:09.096] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:34:15.578] Server  LOG      ✓ Compiled in 182ms
+[03:34:15.681] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:34:21.429] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:34:22.386] Server  ERROR    ⨯ ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+
+
+[03:34:22.513] Browser ERROR   uncaughtError: Error: ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+
+
+[03:34:22.656] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:34:22.656] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:34:23.873] Server  ERROR    ⨯ ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+
+
+[03:34:23.969] Browser ERROR   uncaughtError: Error: ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+
+
+[03:34:24.104] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:34:24.104] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:34:30.212] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:34:36.980] Browser ERROR   ./components/parallax-hero.tsx:320:4
+Parsing ecmascript source code failed
+  318 |       })}
+  319 |     </div>
+> 320 |   )
+      |    ^
+  321 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:34:52.074] Browser ERROR   ./components/parallax-hero.tsx:323:4
+Parsing ecmascript source code failed
+  321 |       })}
+  322 |     </div>
+> 323 |   )
+      |    ^
+  324 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:35:00.318] Browser ERROR   ./components/parallax-hero.tsx:325:4
+Parsing ecmascript source code failed
+  323 |       })}
+  324 |     </div>
+> 325 |   )
+      |    ^
+  326 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:35:43.726] Browser ERROR   ./components/parallax-hero.tsx:335:4
+Parsing ecmascript source code failed
+  333 |       })}
+  334 |     </div>
+> 335 |   )
+      |    ^
+  336 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./components/parallax-hero.tsx
+    ./app/page.tsx
+[03:35:48.752] Server  LOG      ✓ Compiled in 58ms
+[03:35:48.948] Server  ERROR    ⨯ ReferenceError: Image is not defined
+[03:35:49.361] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[03:36:19.127] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:36:19.234] Server  LOG      ✓ Compiled in 74ms
+[03:36:19.295] Server  ERROR    ⨯ ReferenceError: Image is not defined
+[03:36:19.532] Browser ERROR   uncaughtError: ReferenceError: getOptimizedImageProps is not defined
+[03:36:28.143] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:36:28.239] Server  LOG      ✓ Compiled in 87ms
+[03:36:28.306] Server  ERROR    ⨯ ReferenceError: Image is not defined
+[03:36:28.587] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[03:36:45.153] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:36:45.254] Server  LOG      ✓ Compiled in 54ms
+[03:36:45.307] Server  ERROR    ⨯ ReferenceError: Image is not defined
+[03:36:45.546] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[03:37:00.025] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:37:00.108] Server  LOG      ✓ Compiled in 60ms
+[03:37:00.179] Server  ERROR    ⨯ ReferenceError: Image is not defined
+[03:37:00.423] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[03:37:14.810] Server  ERROR    ⨯ ReferenceError: Image is not defined
+[03:37:15.018] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[03:37:31.373] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:37:31.455] Server  LOG      ✓ Compiled in 67ms
+[03:37:31.871] Browser WARN    Image with src "/images/mexican-wrestler.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:37:31.871] Browser WARN    Image with src "/taco.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:37:31.871] Browser WARN    Image with src "/images/tacos.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:37:31.871] Browser WARN    Image with src "/images/ramen.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:37:31.871] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:37:31.871] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:37:31.871] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767210144255}
+[03:37:31.871] Browser WARN    Image with src "/images/quesadilla.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:37:31.871] Browser WARN    Image with src "/images/torta.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:37:39.875] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[03:37:39.875] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767210152241}
+[03:37:39.875] Browser WARN    Image with src "/images/churros.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:37:39.875] Browser WARN    Image with src "/images/chilaquilles.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:37:43.142] Browser WARN    Image with src "/images/barbacoa.png" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:43.142] Browser WARN    Image with src "/images/pibil.png" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:43.143] Browser WARN    Image with src "/images/tinga.jpeg" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:43.143] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767210155550}
+[03:37:44.648] Browser WARN    Image with src "/images/nachos.png" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:44.648] Browser WARN    Image with src "/images/bandito.png" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:44.648] Browser WARN    Image with src "/images/consomme.png" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:45.699] Browser WARN    Image with src "/images/churros.jpeg" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:46.542] Browser WARN    Image with src "/images/soda.png" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:46.542] Browser WARN    Image with src "/images/water.png" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:50.101] Browser WARN    Image with src "/images/tacos.jpeg" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:50.101] Browser WARN    Image with src "/images/ramen.jpeg" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:50.101] Browser WARN    Image with src "/images/quesadilla.jpeg" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:50.101] Browser WARN    Image with src "/images/torta.jpeg" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:50.101] Browser WARN    Image with src "/images/ricebox.jpeg" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:50.101] Browser WARN    Image with src "/images/chilaquilles.jpeg" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:37:53.868] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767210166283}
+[03:41:57.333] Server  LOG      ✓ Compiled in 657ms
+[03:42:33.837] Browser WARN    Image with src "/images/mexican-wrestler.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:33.837] Browser WARN    Image with src "/taco.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:33.837] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:42:33.837] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:42:33.837] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767210446201}
+[03:42:33.837] Browser WARN    Image with src "/images/tacos.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:33.837] Browser WARN    Image with src "/images/ramen.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:33.837] Browser WARN    Image with src "/images/quesadilla.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:33.837] Browser WARN    Image with src "/images/torta.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:36.928] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[03:42:36.928] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767210449300}
+[03:42:36.928] Browser WARN    Image with src "/images/churros.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:36.928] Browser WARN    Image with src "/images/chilaquilles.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:42.701] Browser WARN    Image with src "/images/barbacoa.png" is using quality "80" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:42:42.701] Browser WARN    Image with src "/images/pibil.png" is using quality "80" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:42:42.701] Browser WARN    Image with src "/images/tinga.jpeg" is using quality "80" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:42:42.701] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767210455113}
+[03:42:44.729] Browser WARN    Image with src "/images/nachos.png" is using quality "80" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:42:44.729] Browser WARN    Image with src "/images/bandito.png" is using quality "80" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:42:44.729] Browser WARN    Image with src "/images/consomme.png" is using quality "80" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:42:45.235] Browser WARN    Image with src "/images/churros.jpeg" is using quality "80" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:42:45.778] Browser WARN    Image with src "/images/soda.png" is using quality "80" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:42:45.778] Browser WARN    Image with src "/images/water.png" is using quality "80" which is not configured in images.qualities [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75]. Please update your config to [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:43:19.836] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767210492253}
+[03:45:38.756] Server  LOG      ✓ Compiled in 66ms
+[03:45:38.862] Browser ERROR   ./lib/image-utils.ts:158:12
+Parsing ecmascript source code failed
+  156 |   `data:image/svg+xml;base64,${toBase64(shimmer(w, h))}`;
+  157 |   alt: string;
+> 158 |   priority?: boolean;
+      |            ^
+  159 |   className?: string;
+  160 |   width?: number | `${number}`;
+  161 |   height?: number | `${number}`;
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./lib/image-utils.ts [Client Component Browser]
+    ./components/OptimizedImage.tsx [Client Component Browser]
+    ./components/parallax-hero.tsx [Client Component Browser]
+    ./components/parallax-hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/image-utils.ts [Client Component SSR]
+    ./components/OptimizedImage.tsx [Client Component SSR]
+    ./components/parallax-hero.tsx [Client Component SSR]
+    ./components/parallax-hero.tsx [Server Component]
+    ./app/page.tsx [Server Component]

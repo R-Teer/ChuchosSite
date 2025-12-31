@@ -5,6 +5,7 @@ import Image from "next/image"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { X, ChevronLeft } from "lucide-react"
+import { MenuSchemaScript } from "@/components/menu-schema-script"
 
 const proteins = [
   { id: "barbacoa", name: "BARBACOA BEEF", image: "/images/barbacoa.png", basePrice: 5.0 },
@@ -180,9 +181,21 @@ export default function MenuPage() {
 
   const cartTotal = cart.reduce((total, item) => total + item.price * item.quantity, 0)
 
+  // Prepare menu items for schema
+  const menuItems = styles.flatMap(style => 
+    proteins.map(protein => ({
+      id: `${style.id}-${protein.id}`,
+      name: `${protein.name} ${style.name}`,
+      description: style.description,
+      price: protein.basePrice + style.upcharge,
+      image: style.image // Using the style image as the main image
+    }))
+  )
+
   return (
-    <main>
+    <div className="min-h-screen bg-black text-white">
       <Navigation />
+      <MenuSchemaScript menuItems={menuItems} />
 
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden bg-background pt-24">
@@ -259,9 +272,12 @@ export default function MenuPage() {
                         <div className="relative aspect-square overflow-hidden">
                           <Image
                             src={protein.image || "/placeholder.svg"}
-                            alt={protein.name}
+                            alt={`${protein.name} - Slow-cooked to perfection with authentic Mexican spices`}
                             fill
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                             className="object-cover transition-transform duration-700 group-hover:scale-105"
+                            loading="lazy"
+                            quality={80}
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
                         </div>
@@ -330,9 +346,12 @@ export default function MenuPage() {
                         <div className="relative aspect-[16/10] overflow-hidden bg-background">
                           <Image
                             src={style.image || "/placeholder.svg"}
-                            alt={style.name}
+                            alt={`${style.name} - ${style.description}`}
                             fill
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                             className="object-cover transition-transform duration-700 group-hover:scale-105"
+                            loading="lazy"
+                            quality={80}
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
                         </div>
@@ -407,9 +426,12 @@ export default function MenuPage() {
                     <div className="relative aspect-[16/10] overflow-hidden">
                       <Image
                         src={side.image || "/placeholder.svg"}
-                        alt={side.name}
+                        alt={`${side.name} - ${side.description || 'Delicious Mexican side dish'}`}
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         className="object-cover transition-transform duration-700 group-hover:scale-105"
+                        loading="lazy"
+                        quality={80}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
                     </div>
@@ -457,9 +479,12 @@ export default function MenuPage() {
                       <div className="relative aspect-square overflow-hidden">
                         <Image
                           src={dessert.image}
-                          alt={dessert.name}
+                          alt={`${dessert.name} - ${dessert.description || 'Delicious Mexican dessert'}`}
                           fill
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                           className="object-cover transition-transform duration-700 group-hover:scale-105"
+                          loading="lazy"
+                          quality={80}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
                       </div>
@@ -508,9 +533,12 @@ export default function MenuPage() {
                       <div className="relative aspect-square overflow-hidden">
                         <Image
                           src={drink.image}
-                          alt={drink.name}
+                          alt={`${drink.name} - ${drink.description || 'Refreshing beverage'}`}
                           fill
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                           className="object-cover transition-transform duration-700 group-hover:scale-105"
+                          loading="lazy"
+                          quality={80}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
                       </div>
@@ -584,8 +612,7 @@ export default function MenuPage() {
           </div>
         </aside>
       </div>
-
       <Footer />
-    </main>
+    </div>
   )
 }
